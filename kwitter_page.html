@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwitter Message Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="kwitter.css">
+</head>
+<body>
+    <div class="container">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+        <center>
+            <h1 class="header">Kwitter
+                <sup><img src="https://balakrishnan11.github.io/Project-93/m2.png" width="100px" height="100px"></sup>
+            </h1>
+            <div style="text-align: left; margin-bottom:70px;" id="output"></div>
+        </center>
+    </div>
+    <center>
+        <div class="input_div_message_page" style="margin-top: 550px; background-color: aqua; height: 160px; width: 1900px;" >
+            <label>Send:</label><br>
+            <input type="text" class="form-control" id="msg" placeholder="MESSAGE" style="width: 1500px;"><br>
+            <button class="btn btn-success" style="width: 800px;" onclick="send()">Send</button>
+        </div>
+    </center>
+
+      <script src="kwitter_page.js"></script>
+</body>
+</html>
